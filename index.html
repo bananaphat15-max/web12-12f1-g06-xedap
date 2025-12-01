@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pace cycling</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap" rel="stylesheet"/>
+    
+    <!-- ICON -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  </head>
+  <body>
+
+    <!-- HEADER -->
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#home-section">Home</a></li>
+          <li><a href="#club-section">Story</a></li>
+          <li><a href="#shop-section">Shop</a></li>
+          <li><a href="#contact-section">Contact</a></li>
+          <li class="nav_more">
+            <a href="">More</a>
+            <i class="fa-solid fa-caret-down"></i>
+            <div class="nav_more_items">
+              <a href="#home-section">Kit</a>
+              <a href="#home-section">Team</a>
+              <a href="#home-section">Event</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <div class="nav_search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+    </header>
+
+    <!-- HOME -->
+    <section class="carousel" id="home-section">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/home1.png" class="d-block w-100" alt="..."/>
+            <div class="carousel-caption d-none d-md-block">
+              <h2>DEFINE SPEED</h2>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/home2.png" class="d-block w-100" alt="..."/>
+            <div class="carousel-caption d-none d-md-block">
+              <h2>OWN THE PACE</h2>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/home3.png" class="d-block w-100" alt="..."/>
+            <div class="carousel-caption d-none d-md-block">
+              <h2>FEEL THE POWER </h2>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- CLUB -->
+    <section class="spacing" id="club-section">
+      <div class="heading">
+        <h1>WE ARE PACE</h1>
+        <p><strong>CHASE NOTHING, OWN THE PACE</strong></p>
+      </div>
+      <div class="content">
+        <p>PACE is the intersection of high-performance engineering and modern aesthetics. 
+            We specialize in cutting-edge aerodynamic frames and premium cycling kits for 
+            riders who refuse to compromise. Whether you're chasing a podium or a personal best,
+             we provide the gear to make you faster—and look sharper—while doing it.
+          </p>
+        <div class="club">
+          <div class="item">
+            <h5>FRAME</h5>
+            <img src="img/frame.png" alt="" />
+          </div>
+          <div class="item">
+            <h5>KIT</h5>
+            <img src="img/kit.png" alt="" />
+          </div>
+          <div class="item">
+            <h5>ACCESSORIES</h5>
+            <img src="img/helmelt.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MARKET -->
+    <section class="spacing" id="shop-section">
+      <div class="heading">
+        <h1>THE HANGER</h1>
+        <p>Explore THE SPEED</p>
+      </div>
+      <div class="shop-content">
+        <div class="shop-detail">
+          <ul>
+            <li>
+              <p>ACCESSORIES</p>
+              <p class="status-sold">Sold Out</p>
+            </li>
+            <li>
+              <p>KIT</p>
+              <p class="status-sold">Sold Out</p>
+            </li>
+            <li>
+              <p>FRAME</p>
+              <p class="status-ava">3</p>
+            </li>
+          </ul>
+        </div>
+        <div class="shop-overview">
+
+          <div class="shop-jerseys">
+            <img src="img/bike1.png" alt="2025-2026 Official Jersey"/>
+            <h6>VORTEX R1</h6>
+            <p class="price">$2500.00</p>
+            <p>Vortex R1.</p>
+            <P>-The official frame of the PACE Team. Designed for the brutal demands of crit racing</P>
+            <P>-Quick Response: Razor-sharp handling for technical courses.</P> 
+            <P>-Pure Stiffness: 100% power transfer for the final sprint.</p>
+                <button data-bs-toggle="modal" data-bs-target="#modal-bike1">Add to cart</button>
+          </div>
+
+          <div class="shop-jerseys">
+            <img src="img/bike2.png" alt="2025-2026 Official Jersey"/>
+            <h6>INTERCEPTOR A-VER</h6>
+            <p class="price">$2000.00</p>
+            <p>Interceptor A-Ver.</p>
+            <p>-Gravel just got a whole lot faster. The PACE Interceptor A-Ver blends road-race aerodynamics with all-terrain comfort.</p>
+            <p>-Aero Efficiency: Slice through headwinds on open gravel.</p> 
+            <p>-All-Day Comfort: Advanced vibration damping keeps you fresh.</p>
+            <button data-bs-toggle="modal" data-bs-target="#modal-bike2">Add to cart</button>
+          </div>
+
+          <div class="shop-jerseys">
+            <img src="img/bike3.png" alt="2024-2025 Official Jersey"/>
+            <h6>EDGE R-VER</h6>
+            <p class="price">$1500.00</p>
+            <p>Introducing the Edge R-Ver.</p> 
+            <p>-Built for the long haul, the Edge R-Ver combines wind-tunnel-proven aerodynamics with a ride quality that keeps you fresh from sunrise to sunset. </p>
+            <p>-Free Speed: Drag-reducing profiles save energy over long distances. </p>
+            <p>-Endurance Geometry: ride in an aero position comfortably for hours. </p>
+            <button data-bs-toggle="modal" data-bs-target="#modal-bike3">Add to cart</button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- MODAL -->
+    <div class="modal fade" id="modal-bike1" tabindex="-1" aria-labelledby="modalLabel1" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalLabel1">VORTEX R1</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="name1" class="form-label">Contact Method</label>
+                <input type="text" class="form-control" id="name1" required />
+              </div>
+              <div class="mb-3">
+                <label for="email1" class="form-label">Address</label>
+                <input type="email" class="form-control" id="email1" required />
+              </div>
+              <div class="mb-3">
+                <label for="size1" class="form-label">Select Size</label>
+                <select class="form-select" id="size1" required>
+                  <option value="">Choose...</option>
+                  <option value="S">S</option>
+                  <option value="M">M</option>
+                  <option value="L">L</option>
+                  <option value="XL">XL</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="quantity1" class="form-label">Quantity</label>
+                <input type="number" class="form-control" id="quantity1" value="1" min="1" required/>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Add to Basket</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modal-bike2" tabindex="-1" aria-labelledby="modalLabel2" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalLabel2">INTERCEPTOR A-VER</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="name2" class="form-label">Contact Method</label>
+                <input type="text" class="form-control" id="name2" required />
+              </div>
+              <div class="mb-3">
+                <label for="email2" class="form-label">Address</label>
+                <input type="email" class="form-control" id="email2" required />
+              </div>
+              <div class="mb-3">
+                <label for="size2" class="form-label">Select Size</label>
+                <select class="form-select" id="size2" required>
+                  <option value="">Choose...</option>
+                  <option value="S">S</option>
+                  <option value="M">M</option>
+                  <option value="L">L</option>
+                  <option value="XL">XL</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="quantity2" class="form-label">Quantity</label>
+                <input type="number" class="form-control" id="quantity2" value="1"min="1"required/>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Add to Basket</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modal-bike3" tabindex="-1" aria-labelledby="modalLabel3" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalLabel3">EDGE R-VER</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="name3" class="form-label">Contact Method</label>
+                <input type="text" class="form-control" id="name3" required />
+              </div>
+              <div class="mb-3">
+                <label for="email3" class="form-label">Address</label>
+                <input type="email" class="form-control" id="email3" required />
+              </div>
+              <div class="mb-3">
+                <label for="size3" class="form-label">Select Size</label>
+                <select class="form-select" id="size3" required>
+                  <option value="">Choose...</option>
+                  <option value="S">S</option>
+                  <option value="M">M</option>
+                  <option value="L">L</option>
+                  <option value="XL">XL</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="quantity3" class="form-label">Quantity</label>
+                <input type="number" class="form-control" id="quantity3" value="1" min="1" required/>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Add to Basket</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTACT -->
+    <section class="spacing" id="contact-section">
+      <div class="heading">
+        <h1>Contact</h1>
+        <p>Find out more infomation?</p>
+      </div>
+      <div class="contact-content">
+        <div class="contact-left">
+          <div class="contact-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <p>Hochiminh, VietNam</p>
+          </div>
+          <div class="contact-item">
+            <i class="fa-solid fa-phone"></i>
+            <p>Phone: 0828 123 478</p>
+          </div>
+          <div class="contact-item">
+            <i class="fa-solid fa-envelope"></i>
+            <p>Email: paceteam@email.com</p>
+          </div>
+        </div>
+        <div class="contact-right">
+          <form action="">
+            <div class="contact-input">
+              <input type="text" name="" id="" placeholder="Name" />
+              <input type="email" name="" id="" placeholder="Email" />
+            </div>
+            <input type="text" name="" id="" placeholder="Message" />
+            <button type="submit">SEND</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- IMAGE -->
+     <img src="img/logo.png" alt="" class="logo">
+    
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-icon">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-brands fa-tiktok"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-threads"></i>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="..." crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    
+  </body>
+</html>
