@@ -1,0 +1,1 @@
+For my final assignment, I built a web-based cycling shop using Java, HTML, and CSS. The application serves as an e-commerce platform where users can browse a catalog of bicycles and gear, add items to a shopping cart.The project demonstrates the integration of a responsive frontend design with a functional Java backend to manage product data and user interactions."
